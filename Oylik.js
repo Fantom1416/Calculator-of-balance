@@ -40,11 +40,11 @@ const Bugalteriya = () => {
     else if (SelectValue === "*") {
         Natija.innerHTML = Number(MaoshValue) * Number(SoliqValue) * Number(YolkiraValue) * Number(ObedValue) * Number(RozgorValue) + " so'm"
     }
-    else{
+    else {
         Natija.innerHTML = Number(MaoshValue) / Number(SoliqValue) / Number(YolkiraValue) / Number(ObedValue) / Number(RozgorValue) + " so'm"
     }
 
     Tablica.style.background = "orange"
-Natija.style.color = "green"
-// Natija.innerHTML + Text
+    Natija.style.color = "green"
+    // Natija.innerHTML + Text
 }
